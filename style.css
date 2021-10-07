@@ -1,0 +1,70 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+main{
+    width: 600px;
+    background-color: white;
+}
+
+.post-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text-header{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+
+}
+
+.icon1{
+    padding: 10px;
+    font-size: 30px;
+}
+
+.icon2{
+    margin-top: 10px;
+    width: 20px;
+    padding: 10px;
+}
+
+.imagen{
+    width: 600px;
+}
+
+.content1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content1 > div{
+    display: flex;
+}
+
+.icon3, .icon4, .icon5, .icon6{
+    font-size: 30px;
+    padding: 5px;
+}
+
+.icon6{
+    float: right;
+}
+
+.text1, .text2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 0;
+}
